@@ -1,0 +1,34 @@
+.movie-row{
+height: 100vh;
+} 
+.selected{
+  transition: all .4s ease-out;
+  transform: translate(-2px,-20px)scaley(1.5);
+  border: 2px solid orange;
+}
+.none{
+
+}
+.movie-view{
+  float: left;
+  width: 50px;
+  height: 60px;
+  padding-right: 5px;
+}
+.movie-child{
+  height: 11%;
+  width: 35%;
+    text-align: center;
+    float: left;
+    top: 55%;
+    position: absolute;
+    background-color: rgba(152, 148, 148, 0.5);
+    border-radius: 0 150px 150px 0px;
+}
+.movie-child-inner-wrap{
+  width: 75%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
